@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             // Creates one instance with a circle that
-            // has a radius of 6 units, and one with
-            // a radius of 24.76 units
+            // has a radius of 5 units, and one with
+            // a radius of 6 units
             Circle smallCircle = new Circle(5);
             Circle bigCircle = new Circle(6);
 
