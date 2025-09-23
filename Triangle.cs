@@ -38,9 +38,9 @@ namespace Lab4OOP
         {
             // Using Heron's formula
             double quotient = 1.0 / 2.0;
-            double s = quotient * (this.SideA + this.SideB + this.SideC);
+            double s = quotient * (SideA + SideB + SideC);
 
-            return Math.Sqrt((s * (s - this.SideA) * (s - this.SideB) * (s - this.SideC)));
+            return Math.Sqrt((s * (s - SideA) * (s - SideB) * (s - SideC)));
 
         }
 
@@ -51,7 +51,7 @@ namespace Lab4OOP
 
             // per default, bool as a field will always be assigned false, therefore
             // you have to tell user to change it if they wish to use this method
-            if (this.RightTriangle == false)
+            if (RightTriangle == false)
             {
                 Console.WriteLine("Looks like your triangle is not a right-angled one.");
                 Console.WriteLine("Is this not correct? Change the RightTriangle property to \"true\" and try again.");
@@ -64,8 +64,8 @@ namespace Lab4OOP
             {
                 // Since we now know that the triangle is right-angled, we can
                 // use the Pythagorean theorem and return the result
-                this.SideC = (Math.Sqrt(Math.Pow(this.SideA, 2) + Math.Pow(this.SideB, 2)));
-                return this.SideC;
+                SideC = (Math.Sqrt(Math.Pow(SideA, 2) + Math.Pow(SideB, 2)));
+                return SideC;
             }
             
             

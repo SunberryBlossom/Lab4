@@ -22,7 +22,7 @@ namespace Lab4OOP
             // Takes the radius, squares it, multiplies with Pi
             // which is the formula of the Area of a circle
             // and returns it.
-            return (Math.Pow(this.Radius, 2)) * Math.PI;
+            return (Math.Pow(Radius, 2)) * Math.PI;
         }
 
         //-------------- EXTRA CHALLENGES ------------//
@@ -35,7 +35,7 @@ namespace Lab4OOP
             // always uses the object's radius through the this keyword.
             // Returns the circumference after being calculated with the
             // correct formula
-            return (2 * Math.PI * this.Radius);
+            return (2 * Math.PI * Radius);
         }
 
         public double SphereVolume()
@@ -44,7 +44,7 @@ namespace Lab4OOP
             double quotient = 4.0 / 3.0;
 
             // returns result of the sphere volume formula with the object's radius
-            return (quotient * Math.PI * Math.Pow(this.Radius, 3));
+            return (quotient * Math.PI * Math.Pow(Radius, 3));
         }
     }
 }
