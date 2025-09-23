@@ -12,6 +12,7 @@ namespace Lab4OOP
         public double SideA { get; set; }
         public double SideB { get; set; }
         public double SideC { get; set; }
+        public bool RightTriangle {  get; set; }
 
         // Default constructor that assigns all sides of the triangles with their own values
         public Triangle(double sideA, double sideB, double sideC)
@@ -44,7 +45,6 @@ namespace Lab4OOP
 
         }
 
-        public bool RightTriangle {  get; set; }
 
         public double Hypotenuse()
         {
@@ -66,15 +66,8 @@ namespace Lab4OOP
                 // use the Pythagorean theorem and return the result
                 SideC = (Math.Sqrt(Math.Pow(SideA, 2) + Math.Pow(SideB, 2)));
                 return SideC;
-            }
-            
-            
-
-                
+            }                
         }
-            
-            
-
     }
 }
 
