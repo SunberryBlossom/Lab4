@@ -8,8 +8,12 @@ namespace Lab4OOP
 {
     internal class Circle
     {
-        // Creates a double property named Radius
-        public double Radius { get; set; }
+        double _radius;
+        public double Radius 
+        {
+            get { return  _radius; }
+            set { _radius = value; }
+        }
 
         // Constructor that requires input for Radius property
         public Circle(double radius)
@@ -28,7 +32,14 @@ namespace Lab4OOP
         //-------------- EXTRA CHALLENGES ------------//
 
         // Property for Circumference
-        public double SphereCircumference { get; set; }
+
+        double _sphereCircumference;
+       
+        public double SphereCircumference
+        {
+            get { return _sphereCircumference; }
+            set { _sphereCircumference = value; }
+        }
 
         public double Circum()
         {
