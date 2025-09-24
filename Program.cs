@@ -10,8 +10,8 @@
             Circle smallCircle = new Circle(5);
             Circle bigCircle = new Circle(6);
 
-            smallCircle.GetArea();
-            bigCircle.GetArea();
+            smallCircle.AreaCalculator();
+            bigCircle.AreaCalculator();
 
             //------------- EXTRA CHALLENGES -----------//
 

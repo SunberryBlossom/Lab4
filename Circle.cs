@@ -21,7 +21,7 @@ namespace Lab4OOP
             Radius = radius;
         }
 
-        public double GetArea()
+        public double AreaCalculator()
         {
             // Takes the radius, squares it, multiplies with Pi
             // which is the formula of the Area of a circle
